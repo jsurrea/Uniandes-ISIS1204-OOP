@@ -1,4 +1,4 @@
-# Uniandes-ISIS1204-OOP
+# Object Oriented Programming Projects (ISIS1204 @ Uniandes)
 
 This is a collection of projects I worked on for the courses on Object Oriented Programming at Uniandes. All credits due to the [Proyecto Cupi2](https://cupi2.virtual.uniandes.edu.co) team.
 
@@ -25,7 +25,7 @@ java -cp bin uniandes.cupi2.cupiCode.cliente.interfaz.InterfazJugador &
 java -cp bin uniandes.cupi2.cupiCode.cliente.interfaz.InterfazJugador &
 ```
 
-<img width="1000" alt="guessthecode" src="https://github.com/user-attachments/assets/6883fb66-4230-4242-b672-27017e53b9b3" />
+<img width="1000" alt="guess-the-code" src="https://github.com/user-attachments/assets/6883fb66-4230-4242-b672-27017e53b9b3" />
 
 
 ## Lights Out
@@ -36,6 +36,6 @@ open lucesapagadas.html
 ```
 
 
-<img width="600" alt="Screenshot 2025-02-08 at 18 56 57" src="https://github.com/user-attachments/assets/9bfd989e-8e47-4b02-83d1-305117837d97" />
+<img width="600" alt="lights-out" src="https://github.com/user-attachments/assets/9bfd989e-8e47-4b02-83d1-305117837d97" />
 
 
