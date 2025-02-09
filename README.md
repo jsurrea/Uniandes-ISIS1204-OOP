@@ -12,6 +12,9 @@ javac -encoding UTF-8 -d bin $(find source -name "*.java")
 java -cp bin uniandes.cupi2.sudoku.interfaz.InterfazSudoku
 ```
 
+<img width="1000" alt="sudoku" src="https://github.com/user-attachments/assets/fdfe542f-48be-4dfe-8f4f-dc3216361568" />
+
+
 ## Guess the Code
 
 ```bash
@@ -22,9 +25,17 @@ java -cp bin uniandes.cupi2.cupiCode.cliente.interfaz.InterfazJugador &
 java -cp bin uniandes.cupi2.cupiCode.cliente.interfaz.InterfazJugador &
 ```
 
+<img width="1000" alt="guessthecode" src="https://github.com/user-attachments/assets/6883fb66-4230-4242-b672-27017e53b9b3" />
+
+
 ## Lights Out
 
 ```bash
 cd LightsOut
 open lucesapagadas.html
 ```
+
+
+<img width="600" alt="Screenshot 2025-02-08 at 18 56 57" src="https://github.com/user-attachments/assets/9bfd989e-8e47-4b02-83d1-305117837d97" />
+
+
