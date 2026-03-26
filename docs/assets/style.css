@@ -79,6 +79,33 @@ h2 {
   padding: 0.8rem;
 }
 
+.game-showcase {
+  margin-top: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  background: #0f1a2b;
+}
+
+.game-showcase img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.game-copy {
+  padding: 0.9rem 1rem 1rem;
+}
+
+.game-copy h3 {
+  margin: 0 0 0.35rem;
+}
+
+.game-copy p {
+  margin: 0;
+  color: var(--muted);
+}
+
 code,
 pre {
   font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -95,33 +122,6 @@ pre {
 .badges img {
   margin-right: 0.4rem;
   margin-bottom: 0.4rem;
-}
-
-.screenshots {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 0.8rem;
-}
-
-.screenshots figure {
-  margin: 0;
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  overflow: hidden;
-  background: #0f1a2b;
-}
-
-.screenshots img {
-  display: block;
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-}
-
-.screenshots figcaption {
-  padding: 0.55rem 0.7rem;
-  color: var(--muted);
-  font-size: 0.9rem;
 }
 
 .tree {
