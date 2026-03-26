@@ -86,20 +86,20 @@ h2 {
   overflow: hidden;
   background: #0f1a2b;
   display: grid;
-  grid-template-columns: minmax(0, 1.8fr) minmax(0, 1fr);
+  grid-template-columns: 1fr;
   align-items: stretch;
 }
 
 .game-showcase img {
   display: block;
   width: 100%;
-  height: 100%;
-  min-height: 260px;
-  object-fit: cover;
+  height: auto;
+  min-height: 0;
+  object-fit: contain;
 }
 
 .game-copy {
-  padding: 1.35rem 1.25rem;
+  padding: 1.35rem 1.4rem 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -112,16 +112,12 @@ h2 {
 .game-copy p {
   margin: 0;
   color: var(--muted);
+  max-width: 90ch;
 }
 
 @media (max-width: 860px) {
-  .game-showcase {
-    grid-template-columns: 1fr;
-  }
-
-  .game-showcase img {
-    min-height: 0;
-    height: auto;
+  .game-copy {
+    padding: 1.1rem 1rem 1.2rem;
   }
 }
 
