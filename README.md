@@ -19,7 +19,7 @@ javac -encoding UTF-8 -d bin $(find source -name "*.java")
 java -cp bin uniandes.cupi2.sudoku.interfaz.InterfazSudoku
 ```
 
-![Sudoku banner](Sudoku/data/imagenes/banner.png)
+<img src="https://github.com/user-attachments/assets/fdfe542f-48be-4dfe-8f4f-dc3216361568">
 
 ### 2) Guess the Code (`GuessTheCode/`)
 Client-server Java Swing game where two players connect to a server and play code-guessing rounds.
@@ -49,7 +49,7 @@ cd GuessTheCode
 java -cp bin uniandes.cupi2.cupiCode.cliente.interfaz.InterfazJugador
 ```
 
-![Guess the Code banner](GuessTheCode/data/imagenes/imagen.png)
+<img src="https://github.com/user-attachments/assets/6883fb66-4230-4242-b672-27017e53b9b3">
 
 ### 3) Lights Out (`LightsOut/`)
 Static HTML puzzle page (`lucesapagadas.html`) with a 7x7 button grid and image assets.
@@ -60,7 +60,7 @@ cd LightsOut
 # Open lucesapagadas.html in your browser
 ```
 
-![Lights Out window image](LightsOut/img/ventana2.png)
+<img src="https://github.com/user-attachments/assets/9bfd989e-8e47-4b02-83d1-305117837d97">
 
 ## Project structure
 
